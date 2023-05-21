@@ -3,6 +3,10 @@ package pl.poznan.put.cs.sqc.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
+/**
+ * Author: Aliaksandr Lisoutau
+ */
+
 @Controller
 public class HomeController {
 
