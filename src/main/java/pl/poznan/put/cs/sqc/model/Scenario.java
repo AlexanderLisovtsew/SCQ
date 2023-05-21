@@ -4,6 +4,9 @@ import lombok.Data;
 
 import java.util.List;
 
+/**
+ * Author: Aliaksandr Lisoutau
+ */
 @Data
 public class Scenario {
     private String title;

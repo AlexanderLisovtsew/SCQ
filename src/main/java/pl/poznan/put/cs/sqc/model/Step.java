@@ -6,6 +6,10 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+/**
+ * Author: Aliaksandr Lisoutau
+ */
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
