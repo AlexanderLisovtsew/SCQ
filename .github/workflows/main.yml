@@ -30,12 +30,12 @@ jobs:
         name: jar-artifacts
         path: staging
         
-#     - name: Generate JavaDoc
-#       run: |
-#         mvn javadoc:javadoc
-#         mkdir docs && cp -r target/site/apidocs/* docs
-#     - name: Get JavaDoc Artifacts 
-#       uses: actions/upload-artifact@v3
-#       with:
-#         name: doc-artifacts
-#         path: docs
+    - name: Generate JavaDoc
+      run: |
+        mvn javadoc:javadoc
+        mkdir docs && cp -r target/site/apidocs/* docs
+    - name: Get JavaDoc Artifacts 
+      uses: actions/upload-artifact@v3
+      with:
+        name: doc-artifacts
+        path: docs
